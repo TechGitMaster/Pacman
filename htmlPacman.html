@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cssScript.css" />
+    <script src="jsScript.js" charset='UTF-8'></script>
+    <title>Pac-Man</title>
+</head>
+<body>
+    <div class="border">
+        <div class="number">Game start at 3</div>
+    </div>
+    <div class="CardBoard">
+        <div class="cardBoardFinal"></div>
+        <canvas class="canvasPacman"></canvas>
+        <canvas class="canvasGhost1"></canvas>
+        <canvas class="canvasGhost2"></canvas>
+        <canvas class="canvasGhost3"></canvas>
+        <canvas class="canvasGhost4"></canvas>
+        <div class="boardNavi">
+            <div class="div">
+                <div class="speedDT">
+                    Press S to speed up
+                </div>
+                <div class="speedDR">
+                    <div class="range">0%</div>
+                </div>
+            </div>
+            <div class="div">
+                <div class="divSLS">Score: 0</div>
+                <div class="divSL">
+                    <span>Your life</span>
+                    <canvas class="LifeCan"></canvas> 
+                    <span class="lifeNum">x 3</span>
+                </div>
+            </div>
+            <div class="div">
+                <div style="color:white">Controller:</div>
+                <div>
+                    <div class="controlUp">
+                        <div class="controllerDU U">↑</div>
+                    </div>
+                    <div class="controlD">
+                        <div class="controllerD L">←</div>
+                        <div class="controllerD D">↓</div>
+                        <div class="controllerD R">→</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
